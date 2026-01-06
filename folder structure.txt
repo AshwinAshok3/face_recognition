@@ -1,0 +1,34 @@
+face-recognition-project/
+│
+├── data/
+│   ├── reference/
+│   │   └── target.jpg
+│   ├── videos/
+│   │   └── crowd.mp4
+│
+├── notebooks/
+│   └── face_recognition.ipynb
+│
+├── src/
+│   ├── face_model.py
+│   ├── matcher.py
+│   └── video_processor.py
+│
+├── requirements.txt
+└── README.md
+
+
+
+
+
+What you want involves 4 distinct problems:
+
+Face detection – find faces in frames
+
+Face alignment – normalize faces
+
+Face embedding extraction – convert face → vector
+
+Face matching – compare vectors at scale
+
+If footage quality is trash → results will be trash. No model can magically identify a blurry pixel blob. Accept that upfront.

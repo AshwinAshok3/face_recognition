@@ -1,0 +1,16 @@
+Your system will do 4 distinct things:
+
+Face Detection
+→ Find faces in images / video frames
+
+Face Alignment
+→ Normalize face (eyes, nose, pose)
+
+Face Embedding (Feature Extraction)
+→ Convert face → 512-D vector
+
+Face Identification (1:N Matching)
+→ Compare embedding against a database of known people
+
+This is NOT object detection, NOT tracking, NOT re-ID.
+This is face recognition. Period.
